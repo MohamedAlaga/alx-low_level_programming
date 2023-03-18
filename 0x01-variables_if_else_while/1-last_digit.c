@@ -11,10 +11,9 @@
  */
 int main(void)
 {
-int n;
+int n, y;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-int y;
 y = n / 10;
 y * 10;
 y = n - y;
