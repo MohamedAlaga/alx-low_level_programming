@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE ;gcc -save-temps -S -masm=intel -fverbose-asm $CFILE
+export CFILE ;gcc -save-temps -S -masm=intel -fverbose $CFILE
