@@ -11,7 +11,7 @@ for (i = 0 ; i <= 9 ; i++)
 for (y = 0 ; y <= 9 ; y++)
 for (z = 0 ; z <= 9 ; z++)
 {
-if (z > y && y >i)
+if (z > y && y > i)
 {
 putchar('0' + i);
 putchar('0' + y);
