@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-int i,y;
+int i, y;
 for (i = 0 ; i <= 9 ; i++)
 for (y = 0 ; y <= 9 ; y++)
-{if (y > i){
+{if (y > i)
+{
 putchar('0' + i);
 putchar('0' + y);
-if (i < 9)
+if (i < 8)
 {
 putchar(',');
 putchar(' ');
