@@ -2,8 +2,6 @@
 #include <stdio.h>
 /**
 *print_alphabet -alphabet 
-*
-*Return: none (Success)
 */
 void print_alphabet(void)
 {char a;
