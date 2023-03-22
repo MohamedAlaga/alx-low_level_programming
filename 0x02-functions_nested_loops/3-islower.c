@@ -1,5 +1,6 @@
 /**
- * _islower - check if lower case 
+ * _islower - check if lower case
+ *@c : the number the user wants to check
  *
  * Return: one if lower zero if upper (Success)
  */
@@ -9,7 +10,7 @@ if (c > 96 && c < 123)
 {
 return (1);
 }
-else 
+else
 {
 return (0);
 }
