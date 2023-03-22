@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "_putchar.c"
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -7,9 +7,6 @@
  */
 int main(void)
 {
-int i;
-char a [] = "_putchar";
-for(i = 0 ; i < 8 ; i++)
-_putchar(a[i]);
+printf("_putchar");
 return (0);
 }
