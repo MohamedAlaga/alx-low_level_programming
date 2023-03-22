@@ -12,13 +12,4 @@ for(a = 'a' ; a <= 'z' ; a++)
 _putchar(a);
 _putchar('\n');
 }
-/**
- * main - Entry point
- *
- * Return: Always 1 (Success)
- */
-int main(void)
-{
-print_alphabet();
-return (0);
-}
+
