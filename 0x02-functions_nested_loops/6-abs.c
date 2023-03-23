@@ -1,5 +1,5 @@
 /**
- * abs - check if lower case
+ * _abs - check if lower case
  *@c : is the number th user wants to check
  *
  * Return: one if lower zero if upper (Success)
