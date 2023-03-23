@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * print_sign - check if lower case
  *@c : is the number th user wants to check
