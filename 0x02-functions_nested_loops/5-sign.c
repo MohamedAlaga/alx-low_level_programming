@@ -9,17 +9,14 @@ int print_sign(int c)
 {
 if (c > 0)
 {
-printf("+1");
-return (1);
+return ('+1');
 }
 else if (c < 0)
 {
-printf("-1");
-return(-1);
+return('-1');
 }
 else
 {
-printf("00");
-return (0);
+return ('00');
 }
 }
