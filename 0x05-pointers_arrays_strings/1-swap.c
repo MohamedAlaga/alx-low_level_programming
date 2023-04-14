@@ -2,7 +2,6 @@
  * swap_int - swaps the values of two integers.
  *@a : first user input
  *@b : second user input
- *@c :used to change variables values
  *
  * Return: no return
  */
