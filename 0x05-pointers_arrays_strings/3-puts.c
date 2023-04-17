@@ -1,4 +1,3 @@
-#include <_putchar.c>
 /**
  * _puts - function that prints a string, followed by a new line
  *@s : user input
