@@ -8,7 +8,7 @@
 void _puts(char *str)
 {
 char *ptrVal = str ;
-do{putchar(*ptrVal);}
+do{_putchar(*ptrVal);}
 while(*ptrVal++);
-putchar('\n');
+_putchar('\n');
 }
