@@ -10,7 +10,6 @@ char *ptrVal = s;
 int i;
 for (i = 0 ; *ptrVal++; i++)
 {
-ptrVal++;
 }
 return (i);
 }
