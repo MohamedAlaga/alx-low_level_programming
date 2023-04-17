@@ -1,5 +1,5 @@
 /**
- * swap_int - swaps the values of two integers.
+ * _strlen - swaps the values of two integers.
  *@s : user input
  *@ptr : pointer of string
  *
