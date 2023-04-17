@@ -10,5 +10,5 @@ void _puts(char *str)
 char *ptrVal = str ;
 do{putchar(*ptrVal);}
 while(*ptrVal++);
-printf("/n");
+printf("\n");
 }
