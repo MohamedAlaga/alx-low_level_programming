@@ -1,7 +1,6 @@
 /**
  * _strlen - swaps the values of two integers.
  *@s : user input
- *@ptr : pointer of string
  *
  * Return: string lingth
  */
