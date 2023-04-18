@@ -1,11 +1,11 @@
 #include "main.h"
 /**
 *factorial - gets the factorial of aa number
-*@s : user input
+*@n : user input
 *
 * Return: factorial.
 */
-int factorial(int n) 
+int factorial(int n)
 {
 if (n == 1)
 return (1);
