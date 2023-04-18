@@ -1,9 +1,19 @@
+#include "main.h"
+/**
+*factorial - gets the factorial of aa number
+*@s : user input
+*
+* Return: factorial.
+*/
 int factorial(int n) 
 {
-if(n <= 1)
+if (n = 1)
 return (1);
 else
+if (n < 1)
+return (-1);
+else
 {
-return (n * factorial(n-1));
+return (n * factorial(n - 1));
 }
 }
