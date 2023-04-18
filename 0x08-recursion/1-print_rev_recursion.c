@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * _print_all- print string backword
 *@s : user input
@@ -9,9 +10,13 @@ void _print_all(char *s)
 {
 if (*s != *"\n")
 {
-_putchar(*s);
+putchar(*s);
 s--;
 _print_all(s);
+}
+else
+{
+putchar('\n');
 }
 }
 /**
