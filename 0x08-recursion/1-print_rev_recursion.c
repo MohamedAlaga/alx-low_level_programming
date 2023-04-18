@@ -13,10 +13,6 @@ _putchar(*s);
 s--;
 _print_all(s);
 }
-else
-{
-_putchar('\n');
-}
 }
 /**
 * _print_rev_recursion - function send the cursour to the end of the string
