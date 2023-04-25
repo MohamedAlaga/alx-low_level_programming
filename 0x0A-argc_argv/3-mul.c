@@ -13,8 +13,8 @@ if (argc == 3)
 int multi, x, y;
 x = atoi(argv[1]);
 y = atoi(argv[2]);
-multi = x*y;
-printf("%d\n",multi);
+multi = x *y;
+printf("%d\n", multi);
 return (0);
 }
 else
