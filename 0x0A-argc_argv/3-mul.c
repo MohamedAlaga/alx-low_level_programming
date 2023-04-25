@@ -16,7 +16,7 @@ return (0);
 }
 else
 {
-print("Error");
+printf("Error");
 return (1);
 }
 }
