@@ -11,17 +11,17 @@ int main(int argc, char *argv[])
 if (argc == 1)
 {
 printf("0\n");
-return 0;
+return (0);
 }
 else if (argc > 1)
 {
-x = 0 ;
-for(i = 1; i < argc; i++)
+x = 0;
+for (i = 1; i < argc; i++)
 {
-if (*argv[i]>= 48 && *argv[i] <= 57)
+if (*argv[i] >= 48 && *argv[i] <= 57)
 {
 y = atoi(argv[i]);
-x = x+y;
+x = x + y;
 }
 else
 {
@@ -30,6 +30,6 @@ return (0);
 }
 }
 }
-printf("%d\n",x);
+printf("%d\n", x);
 return (0);
 }
