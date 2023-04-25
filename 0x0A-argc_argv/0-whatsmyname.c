@@ -3,7 +3,7 @@
  /**
  * main : starting point
  * @argc : int
- * @argv : str
+ * @argv : list
  * Return: 0
  */
 
