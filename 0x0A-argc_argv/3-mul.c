@@ -9,8 +9,10 @@ int main(int argc, char *argv[])
 {
 if (argc == 3)
 {
-int multi;
-multi = atoi(argv[1])*atoi(argv[2]);
+int multi, x, y;
+x = atoi(argv[1]);
+y = atoi(argv[2]);
+multi = x*y;
 printf("%d",multi);
 return (0);
 }
