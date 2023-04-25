@@ -1,12 +1,10 @@
 #include "stdio.h"
-
  /**
- * main  - entry point
- * @argc : int
- * @argv : list
+ * main - entry
+ * @argc: int
+ * @argv: list
  * Return: 0
  */
-
 int main(int argc, char *argv[])
 {
 (void)argc;
