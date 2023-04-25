@@ -1,7 +1,7 @@
 #include "stdio.h"
 
  /**
- * main : starting point
+ * main  - starting point
  * @argc : int
  * @argv : list
  * Return: 0
