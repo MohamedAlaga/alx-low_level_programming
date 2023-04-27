@@ -8,7 +8,7 @@ return (NULL);
 }
 else
 {
-char *arr;
+char *arr = NULL;
 unsigned int i ;
 arr = malloc (size * sizeof(char));
 for (i = 0; i < size; i ++)
