@@ -24,7 +24,7 @@ return (NULL);
 else
 {
 int i;
-for (i = 0; i < x; i++)
+for (i = 0; i < x + 1; i++)
 {
 arr[i] = str[i];
 }
