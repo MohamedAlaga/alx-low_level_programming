@@ -18,12 +18,12 @@ char *arr = NULL;
 unsigned int i;
 arr = malloc(size * sizeof(char));
 if (arr == NULL)
-return(NULL);
+return (NULL);
 else
 {
-return(arr);
 for (i = 0; i < size; i++)
-arr[i]= c;
+arr[i] = c;
+return (arr);
 }
 }
 }
