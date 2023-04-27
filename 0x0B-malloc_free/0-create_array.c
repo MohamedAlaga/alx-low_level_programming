@@ -9,10 +9,10 @@ return (NULL);
 else
 {
 char *arr;
-int i ;
+unsigned int i ;
 arr = malloc (size * sizeof(char));
 for (i = 0; i < size; i ++)
 arr[i]=c;
-return (*arr);
+return (arr);
 }
 }
