@@ -16,7 +16,7 @@ else
 {
 int x = strlen(str);
 char *arr = NULL;
-*arr = malloc(x*sizeof(char));
+arr = malloc(x*sizeof(char));
 if (str == NULL)
 {
 return (NULL);
