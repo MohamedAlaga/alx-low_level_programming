@@ -19,6 +19,9 @@ unsigned int i;
 arr = malloc(size * sizeof(char));
 for (i = 0; i < size; i++)
 arr[i]= c;
-return (arr);
+if(*arr == NULL)
+return(NULL);
+else
+return(arr);
 }
 }
