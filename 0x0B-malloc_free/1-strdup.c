@@ -14,7 +14,7 @@ return (NULL);
 }
 else
 {
-int x = strlen(str);
+int x = strlen(str) + 1;
 char *arr = NULL;
 arr = malloc(x*sizeof(char));
 if (str == NULL)
@@ -24,7 +24,7 @@ return (NULL);
 else
 {
 int i;
-for (i = 0; i < x + 1; i++)
+for (i = 0; i < x ; i++)
 {
 arr[i] = str[i];
 }
