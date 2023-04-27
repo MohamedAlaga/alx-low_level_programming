@@ -8,14 +8,15 @@
  */
 char *_strdup(char *str)
 {
-if (*str == NULL)
+if (str == NULL)
 {
 return (NULL);
 }
 else
 {
+int x = strlen(str);
 char *arr = NULL;
-*arr = malloc(strlen(*str)*sizeof(char));
+*arr = malloc(x*sizeof(char));
 if (str == NULL)
 {
 return (NULL);
@@ -23,7 +24,7 @@ return (NULL);
 else
 {
 int i;
-for (i = 0; i < strlen(str); i++)
+for (i = 0; i < x; i++)
 {
 arr[i] = str[i];
 }
