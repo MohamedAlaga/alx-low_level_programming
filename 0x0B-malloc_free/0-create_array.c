@@ -19,7 +19,7 @@ unsigned int i;
 arr = malloc(size * sizeof(char));
 for (i = 0; i < size; i++)
 arr[i]= c;
-if(*arr == NULL)
+if ((arr = malloc(BUFSIZ)==NULL))
 return(NULL);
 else
 return(arr);
