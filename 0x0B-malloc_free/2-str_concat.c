@@ -10,20 +10,10 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-if (s1 == NULL && s2 == NULL)
-{
-return (NULL);
-}
-else if (s2 == NULL)
-{
-return (s1);
-}
-else if (s1 == NULL)
-{
-return (s2);
-}
-else
-{
+if(s1 == NULL)
+s1 = "";
+if(s2 == NULL)
+s2 = "";
 char *concat = NULL;
 int len1, len2;
 len1 = strlen(s1);
@@ -36,7 +26,7 @@ return (NULL);
 else
 {
 int i;
-for(i = 0; i < (len1+len2); i++)
+for (i = 0; i < (len1 + len2); i++)
 {
 if (i < len1)
 {
@@ -44,11 +34,9 @@ concat[i] = s1[i];
 }
 else
 {
-concat[i] = s2[i-len1]; 
+concat[i] = s2[i - len1];
 }
 }
 return (concat);
 }
-}
-return (NULL);
 }
