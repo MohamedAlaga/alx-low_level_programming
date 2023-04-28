@@ -2,8 +2,9 @@
 #include<stdlib.h>
 #include<string.h>
 /**
- * _strdup - creates an array of chars
- * @str: array of chars
+ * *str_concat - conatenate 2 strings
+ * @s1: first array of chars
+ * @s2: second array of chars
  * Return: 0
  */
 char *str_concat(char *s1, char *s2)
@@ -26,10 +27,10 @@ return (s1);
 else
 {
 char *concat = NULL;
-int len1,len2;
+int len1, len2;
 len1 = strlen(s1);
 len2 = strlen(s2);
-concat = malloc((len1+len2)*sizeof(char));
+concat = malloc((len1 + len2) * sizeof(char));
 if (concat == NULL)
 {
 return (NULL);
@@ -37,9 +38,9 @@ return (NULL);
 else
 {
 int i;
-for(i = 0; i<(len1+len2);i++)
+for(i = 0; i < (len1+len2); i++)
 {
-if(i < len1)
+if (i < len1)
 {
 concat[i] = s1[i];
 }
@@ -51,5 +52,5 @@ return (concat);
 }
 }
 }
-return(0);
+return (NULL);
 }
