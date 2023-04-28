@@ -16,23 +16,7 @@ return (NULL);
 }
 else if (s2 == NULL)
 {
-char *concat = NULL;
-int len1;
-len1 = strlen(s1);
-concat = malloc((len1 + 1) * sizeof(char));
-if (concat == NULL)
-{
-return (NULL);
-}
-else
-{
-int i;
-for(i = 0; i < (len1); i++)
-{
-concat[i] = s1[i];
-}
-return (concat);
-}
+return (s1);
 }
 else if (s1 == NULL)
 {
