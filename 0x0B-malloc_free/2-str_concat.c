@@ -49,8 +49,8 @@ else
 {
 concat[i] = s2[i-len1]; 
 }
-return (concat);
 }
+return (concat);
 }
 }
 return (NULL);
