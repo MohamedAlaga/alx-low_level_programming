@@ -14,7 +14,10 @@ if (s2 == NULL)
 {
 return (NULL);
 }
+else
+{
 return (s2);
+}
 }
 else if (s2 == NULL)
 {
@@ -48,4 +51,5 @@ return (concat);
 }
 }
 }
+return(0);
 }
