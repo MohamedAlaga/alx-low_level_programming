@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include"main.h"
 /**
  * *str_concat - conatenate 2 strings
  * @s1: first array of chars
@@ -17,12 +18,12 @@ return (NULL);
 }
 else
 {
-return (*s2);
+return (s2);
 }
 }
 else if (s2 == NULL)
 {
-return (*s1);
+return (s1);
 }
 else
 {
@@ -48,7 +49,7 @@ else
 {
 concat[i] = s2[i-len1]; 
 }
-return (*concat);
+return (concat);
 }
 }
 }
