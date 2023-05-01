@@ -4,7 +4,7 @@
  * struct dog - Define a new type struct dog
  * @name: dog name
  * @age: dog age
- * @owner: dog owner 
+ * @owner: dog owner
  *
  * Description: Longer description
  */
