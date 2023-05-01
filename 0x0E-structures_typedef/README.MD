@@ -1,1 +1,1 @@
-dog.h : Define a new type struct dog
+dog.h : Define a new type struct do
