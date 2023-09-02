@@ -1,17 +1,11 @@
+#include "main.h"
+
 /**
- * _isalpha - check if lower case
- *@c : is the number th user wants to check
- *
- * Return: one if lower zero if upper (Success)
+ * _isalpha - checks for alphabetic character
+ * @c: the character to be checked
+ * Return: 1 if c is a letter, 0 otherwise
  */
 int _isalpha(int c)
 {
-if ((c > 96 && c < 123) || (c > 64 && c < 90))
-{
-return (1);
-}
-else
-{
-return (0);
-}
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
