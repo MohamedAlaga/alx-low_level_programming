@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - print arg number
+ * main - print file name
  * @argc: int
  * @argv: list
  * Return: 0
