@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * _isalpha - check if lower case
  *@c : is the number th user wants to check
