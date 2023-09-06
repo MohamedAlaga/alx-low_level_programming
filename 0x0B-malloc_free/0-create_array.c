@@ -4,8 +4,8 @@
 /**
 * create_array - creating array of charecters
 * @size : array length
-* @char : array initalization
-* return : pointer to the array
+* @c : array initalization
+* Return : pointer to the array
 */
 char *create_array(unsigned int size, char c)
 {
