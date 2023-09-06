@@ -8,21 +8,11 @@
 */
 char *_strdup(char *str)
 {
-int len,i;
-char *str2;
-len = i =0;
-if (str == NULL)
-return (NULL);
-while(str[i] != '\0')
-{
-len += 1;
-}
-str2 = malloc(sizeof(char) * len);
-if (str2 == NULL)
-return (NULL);
-for(i = 0 ; i < len ; i ++)
-{
-str2[i] =str [i]; 
-}
+char* str2;
+str2 = str;
 return str2;
+}
+int main()
+{
+printf("%s",_strdup("hello"));
 }
