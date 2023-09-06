@@ -12,7 +12,3 @@ char* str2;
 str2 = str;
 return str2;
 }
-int main()
-{
-printf("%s",_strdup("hello"));
-}
