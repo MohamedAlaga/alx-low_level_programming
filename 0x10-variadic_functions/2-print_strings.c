@@ -18,7 +18,7 @@ if (str1[0] != '\0')
 printf("%s", str1);
 else
 printf("nil");
-if (i != n - 1)
+if (separator != NULL && i != n - 1)
 printf("%s", separator);
 }
 printf("\n");
