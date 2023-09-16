@@ -14,6 +14,6 @@ for (i = 0; i < n; i++)
 {
 printf("%d",va_arg(nums, int););
 if(separator != NULL)
-pirnf("%s",separator);
+printf("%s",separator);
 }
 }
