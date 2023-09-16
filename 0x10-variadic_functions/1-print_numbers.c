@@ -1,8 +1,9 @@
 #include "variadic_functions.h"
 #include"stdio.h"
 /**
- * sum_them_all - return arg sum
- * @n: int
+ * print_numbers - print numbers
+ * @separator : string
+ * @n : int
  * Return: sum of all args
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -16,4 +17,5 @@ printf("%d",va_arg(nums, int));
 if(separator != NULL)
 printf("%s",separator);
 }
+printf("\n");
 }
