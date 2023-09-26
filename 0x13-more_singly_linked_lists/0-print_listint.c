@@ -3,7 +3,7 @@
  * print_listint - singly linked list
  * @h: linked list
  *
- * Description: singly linked list node structure
+ * Description: print singly linked list node structure
  * Return: lenght of list
  */
 size_t print_listint(const listint_t *h)

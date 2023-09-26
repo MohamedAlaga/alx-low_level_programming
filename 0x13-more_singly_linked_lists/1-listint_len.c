@@ -1,12 +1,12 @@
 #include "lists.h"
 /**
- * print_listint - singly linked list
- * @h: linked list
+ * listint_len - singly linked list
+ * @h: linked list fist element pointer
  *
- * Description: singly linked list node structure
+ * Description: return singly linked list node structure len
  * Return: lenght of list
  */
-size_t print_listint(const listint_t *h)
+size_t listint_len(const listint_t *h)
 {
 if(h)
 {
