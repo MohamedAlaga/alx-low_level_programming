@@ -8,7 +8,7 @@
  */
 size_t listint_len(const listint_t *h)
 {
-if(h)
+if (h)
 {
 if (h->next == NULL)
 return (1);
