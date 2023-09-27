@@ -6,9 +6,9 @@
  */
 void free_listint2(listint_t **head)
 {
+listint_t *h = *head;
 if (head == NULL)
 return;
-listint_t *h = *head;
 if (!h)
 free(h);
 else
