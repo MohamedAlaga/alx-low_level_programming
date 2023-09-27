@@ -13,7 +13,6 @@ if (!h)
 free(h);
 else
 free_listint2(&(h->next));
-free(h);
+free(h); }
 *head = NULL;
-}
 }
