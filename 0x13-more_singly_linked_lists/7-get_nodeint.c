@@ -1,9 +1,10 @@
 #include "lists.h"
 /**
- * pop_listint - delete head node
+ * get_nodeint_at_index - get element of index n
  * @head: pointer to the first node in the list
+ * @index: index of the element
  *
- * Return:head node data or 0 if
+ * Return:element of index n or null if does not exist
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
