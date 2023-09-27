@@ -1,18 +1,18 @@
 #include "lists.h"
 /**
- * pop_listint - delete head node
+ * sum_listint - get sum of list element values
  * @head: pointer to the first node in the list
  *
- * Return:head node data or 0 if 
+ * Return:sum of list element values
  */
 int sum_listint(listint_t *head)
 {
-listint_t *temp = head; 
+listint_t *temp = head;
 int sum = 0;
-  while(temp)
-  {
-    sum+=temp->n;
-    temp = temp->next;
-  }
-return (sum); 
+while (temp)
+{
+sum += temp->n;
+temp = temp->next;
+}
+return (sum);
 }
