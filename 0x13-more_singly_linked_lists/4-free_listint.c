@@ -12,5 +12,6 @@ free(head);
 else
 {
 free_listint(head->next);
+free(head);
 }
 }
