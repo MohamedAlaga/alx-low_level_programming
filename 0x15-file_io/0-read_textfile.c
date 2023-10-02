@@ -17,5 +17,6 @@ while (fscanf(f, "%c", &x) == 1 && count < (int)letters)
 printf("%c", x);
 count++;
 }
+fclose(f);
 return (count);
 }
