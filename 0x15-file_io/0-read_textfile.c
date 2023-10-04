@@ -18,5 +18,7 @@ printf("%c", x);
 count++;
 }
 fclose(f);
+if (count != (int)letters)
+return(0)
 return (count);
 }
