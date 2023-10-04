@@ -11,7 +11,10 @@ FILE *f = fopen(filename, "r");
 char x;
 int count = 0;
 if ((filename == NULL) || letters == 0 || f == NULL)
+{
+fclose(f);
 return (0);
+}
 while (fscanf(f, "%c", &x) == 1 && count < (int)letters)
 {
 printf("%c", x);
