@@ -19,6 +19,6 @@ count++;
 }
 fclose(f);
 if (count != (int)letters)
-return (0);
+count = 0;
 return (count);
 }
