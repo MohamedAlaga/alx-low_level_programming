@@ -10,7 +10,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 FILE *f = fopen(filename, "r");
 char x;
 int count = 0;
-if ((filename == NULL) || letters == 0 || f == -1)
+if ((filename == NULL) || letters == 0 || f == NULL)
 return (0);
 while (fscanf(f, "%c", &x) == 1 && count < (int)letters)
 {
@@ -19,6 +19,6 @@ count++;
 }
 fclose(f);
 if (count != (int)letters)
-return(0);
+return (0);
 return (count);
 }
