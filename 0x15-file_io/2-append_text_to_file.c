@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * append_text_to_file - append to a file
+ *@filename : file directory
+ *@text_content : string
+ * Return: 1 on success -1 o fail
+ */
 int append_text_to_file(const char *filename, char *text_content)
 {
 int f = open(filename, O_CREAT | O_WRONLY | O_APPEND, 0600), len;
