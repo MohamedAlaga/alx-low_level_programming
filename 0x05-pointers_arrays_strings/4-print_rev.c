@@ -18,5 +18,5 @@ printf("%c", *s);
 s--;
 len--;
 }
-printf("\n");
+putchar('\n');
 }
