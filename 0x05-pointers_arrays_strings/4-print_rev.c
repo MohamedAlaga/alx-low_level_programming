@@ -12,6 +12,7 @@ while (*s != '\0')
 len++;
 s++;
 }
+s--;
 while (len > -1)
 {
 printf("%c", *s);
