@@ -14,7 +14,7 @@ len++;
 s++;
 }
 s--;
-while (len > -1) {
+while (len > 0) {
 printf("%c", *s);
 s--;
 len--;
