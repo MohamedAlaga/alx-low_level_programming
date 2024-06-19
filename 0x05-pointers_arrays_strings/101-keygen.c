@@ -7,8 +7,8 @@
  * Return: Always 0.
  */
 int main(void) {
-srand(time(NULL));
 int pass ;
+srand(time(NULL));
 pass = rand();
 printf("%d",pass);  
 return (0);
