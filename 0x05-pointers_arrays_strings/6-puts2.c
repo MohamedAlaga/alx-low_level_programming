@@ -13,7 +13,7 @@ while (str[len] != '\0')
 len++;
 for (i = 0; i < len ; i++)
 {
-if (i%2 == 0)
+if (i % 2 == 0)
 printf("%c", str[i]);
 }
 printf("\n");
