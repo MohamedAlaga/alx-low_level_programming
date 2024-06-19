@@ -6,14 +6,15 @@
  *
  * Return: no any
  */
-char *_strcpy(char *dest, char *src){
+char *_strcpy(char *dest, char *src)
+{
 int i;
 char temp;
-  for(i = 0 ; src[i] != '\0' ; i++)
-  {
-    temp = src[i];
-    dest[i] = temp;
-  }
-  dest[i] = '\0';
-  return dest ;
+for (i = 0 ; src[i] != '\0' ; i++)
+{
+temp = src[i];
+dest[i] = temp;
+}
+dest[i] = '\0';
+return dest ;
 }
