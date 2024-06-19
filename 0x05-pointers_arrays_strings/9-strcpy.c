@@ -15,6 +15,5 @@ char temp;
     dest[i] = temp;
   }
   dest[i+1] = '\0';
-  printf("%s",dest);
   return dest ;
 }
