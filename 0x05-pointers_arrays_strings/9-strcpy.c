@@ -14,6 +14,6 @@ char temp;
     temp = src[i];
     dest[i] = temp;
   }
-  dest[i+1] = '\0';
+  dest[i] = '\0';
   return dest ;
 }
