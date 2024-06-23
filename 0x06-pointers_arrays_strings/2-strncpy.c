@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * _strncpy -  copy the src string to the dest string
  * @dest: destination strig

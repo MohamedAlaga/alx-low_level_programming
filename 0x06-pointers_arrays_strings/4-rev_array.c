@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 /**
  * reverse_array -  reverse the content of the array
  * @a: pointer to the array first element

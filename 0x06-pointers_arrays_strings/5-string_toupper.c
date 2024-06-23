@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 /**
  * string_toupper -  convert any letter to Upper case
  * @arr: array of string

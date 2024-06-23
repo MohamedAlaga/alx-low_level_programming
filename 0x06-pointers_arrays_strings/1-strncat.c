@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * _strncat -  appends the src string to the dest string
  * @dest: destination strig
