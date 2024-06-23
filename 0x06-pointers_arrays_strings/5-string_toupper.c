@@ -14,5 +14,5 @@ len = strlen(arr);
 for (i = 0; i < len; i++)
 if (arr[i] >= 'a' && arr[i] <= 'z')
 arr[i] = arr[i] - 32;
-return arr;
+return (arr);
 }
