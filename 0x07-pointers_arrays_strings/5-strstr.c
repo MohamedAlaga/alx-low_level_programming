@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _strstr - finds the first occurrence of the substring needle in the string haystack.
+ * _strstr - finds the first occurrence of the substring.
  * @haystack: string to search inside .
  * @needle: string to find.
  *
@@ -13,9 +13,12 @@ unsigned int i, j, len, checked;
 
 checked = 0;
 len = strlen(needle);
-for (i = 0; haystack[i] != '\0'; i++) {
-for (j = 0; needle[j] != '\0'; j++) {
-if (haystack[i] != needle[j]) {
+for (i = 0; haystack[i] != '\0'; i++)
+{
+for (j = 0; needle[j] != '\0'; j++)
+{
+if (haystack[i] != needle[j])
+{
 checked = 0;
 break;
 }

@@ -5,15 +5,17 @@
  *
  * Return: pointer to the string.
  */
-unsigned int _strspn(char *s, char *accept) {
-  unsigned int sum, i, j;
+unsigned int _strspn(char *s, char *accept)
+{
+unsigned int sum, i, j;
 
-  sum = 0;
-  for (i = 0; s[i] != '\0' && s[i] != ' '; i++)
-    for (j = 0; accept[j] != '\0'; j++)
-      if (s[i] == accept[j]) {
-        sum++;
-        break;
-      }
-  return (sum);
+sum = 0;
+for (i = 0; s[i] != '\0' && s[i] != ' '; i++)
+for (j = 0; accept[j] != '\0'; j++)
+if (s[i] == accept[j])
+{
+sum++;
+break;
+}
+return (sum);
 }
