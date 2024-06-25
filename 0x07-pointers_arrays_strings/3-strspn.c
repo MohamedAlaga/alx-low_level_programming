@@ -6,7 +6,7 @@
  * Return: pointer to the string.
  */
 unsigned int _strspn(char *s, char *accept) {
-  unsigned int num, sum, i, j;
+  unsigned int sum, i, j;
 
   sum = 0;
   for (i = 0; s[i] != '\0' && s[i] != ' '; i++)
