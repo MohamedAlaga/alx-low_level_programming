@@ -17,7 +17,7 @@ len1 = strlen(s1);
 len2 = strlen(s2);
 if (len2 == 0)
 return s1;
-if (n < len2)
+if ((int)n < len2)
 len2 = n;
 ptr = malloc(len1 + len2);
 if (ptr == NULL)
