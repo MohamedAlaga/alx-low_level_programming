@@ -6,7 +6,7 @@
  * @age: dog age
  * @owner: dog owner
  *
- * Description: struct to discrbe dog 
+ * Description: struct to discrbe dog data
  */
 
 struct dog
