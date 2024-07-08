@@ -11,7 +11,7 @@
  * Description: struct to discrbe dog data
  */
 
-struct dog
+typedef struct dog
 {
 char *name;
 float age;
