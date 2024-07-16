@@ -9,8 +9,7 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
-size_t low = 0, heigh = size - 1, mid = (low + heigh) / 2;
-int i, y;
+size_t low = 0, heigh = size - 1, mid = (low + heigh) / 2, i, y;
 while (low <= heigh)
 {
 printf("Searching in array:");
