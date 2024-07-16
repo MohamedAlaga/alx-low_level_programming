@@ -9,6 +9,8 @@
  */
 int binary_search(int *array, size_t size, int value)
 {
+if (array == NULL)
+return (-1);
 size_t low = 0, heigh = size - 1, mid = (low + heigh) / 2, y;
 while (low <= heigh)
 {
