@@ -4,6 +4,7 @@
         "stdio.h": "c",
         "string.h": "c",
         "main.h": "c",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "search_algos.h": "c"
     }
 }
