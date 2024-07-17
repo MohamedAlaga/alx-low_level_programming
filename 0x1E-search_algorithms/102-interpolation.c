@@ -17,7 +17,7 @@ pos = (low + (value - temp[low]) * (heigh - low) /
 posStat += pos;
 if (array == NULL || size == 0)
 return (-1);
-if (pos > size || pos < 0)
+if (pos > size )
 {
 printf("Value checked array[%lu] is out of range\n", pos);
 return (-1);
