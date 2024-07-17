@@ -10,35 +10,33 @@
  */
 int jump_search(int *array, size_t size, int value)
 {
-size_t jump = sqrt(size), low = 0, heigh = jump;
-int i;
-if (array == NULL || size ==0)
-return (-1);
-printf("Value checked array[%lu] = [%d]\n", low, array[low]);
-while (heigh < size)
-{
-if (array[heigh] >= value)
-{
-printf("Value found between indexes [%lu] and [%lu]\n", low, heigh);
-for (i = 0; low + i <= heigh; i++)
-{
-printf("Value checked array[%lu] = [%d]\n", low + i, array[low + i]);
-if (array[low + i] == value)
-return (low + i);
-}
-return (-1);
-}
-printf("Value checked array[%lu] = [%d]\n", heigh, array[heigh]);
-if (array[heigh] < value)
-{
-low = heigh;
-if (heigh == size)
-break;
-else if (heigh + jump <= size)
-heigh += jump;
-else
-heigh = size;
-}
-}
-return (-1);
+	int index, m, k, prev;
+
+	if (array == NULL || size == 0)
+		return (-1);
+
+	m = (int)sqrt((double)size);
+	k = 0;
+	prev = index = 0;
+
+	do {
+		printf("Value checked array[%d] = [%d]\n", index, array[index]);
+
+		if (array[index] == value)
+			return (index);
+		k++;
+		prev = index;
+		index = k * m;
+	} while (index < (int)size && array[index] < value);
+
+	printf("Value found between indexes [%d] and [%d]\n", prev, index);
+
+	for (; prev <= index && prev < (int)size; prev++)
+	{
+		printf("Value checked array[%d] = [%d]\n", prev, array[prev]);
+		if (array[prev] == value)
+			return (prev);
+	}
+
+	return (-1);
 }
