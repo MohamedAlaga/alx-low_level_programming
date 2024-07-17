@@ -9,7 +9,7 @@
  */
 int exponential_search(int *array, size_t size, int value)
 {
-size_t pos = size, i = 1;
+size_t i = 1;
 int bSearch;
 if (array == NULL)
 return (-1);
