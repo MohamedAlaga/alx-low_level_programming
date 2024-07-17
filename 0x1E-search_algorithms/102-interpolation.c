@@ -9,7 +9,7 @@
  */
 int interpolation_search(int *array, size_t size, int value)
 {
-int *temp = array, val;
+int *temp = array;
 static size_t posStat = 0;
 size_t low = 0, heigh = size - 1,
 pos = (low + (value - temp[low]) * (heigh - low) /
