@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-int (*result)(int,int) = get_op_func(argv[2]);
+int (*result)(int, int) = get_op_func(argv[2]);
 if (argc != 4 || argv[2][1] || result == NULL)
 {
 printf("Error\n");
