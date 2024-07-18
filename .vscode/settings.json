@@ -5,7 +5,8 @@
         "string.h": "c",
         "main.h": "c",
         "stdlib.h": "c",
-        "search_algos.h": "c"
+        "search_algos.h": "c",
+        "function_pointers.h": "c"
     },
     "files.eol": "\n"
 }
